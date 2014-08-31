@@ -1,0 +1,11 @@
+ceibal (0.2) tatu; urgency=medium
+
+  * Fixed ceibal-pam-auth dependency.
+
+ -- Santiago Aguiar <santiago.aguiar@gmail.com>  Thu, 28 Aug 2014 02:56:15 +0000
+
+ceibal (0.1) tatu; urgency=high
+
+  * Initial release.
+
+ -- Santiago Aguiar <santiago.aguiar@gmail.com>  Thu, 28 Aug 2014 02:23:44 +0000

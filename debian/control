@@ -1,0 +1,14 @@
+Source: ceibal
+Section: admin
+Priority: required
+Maintainer: Santiago Aguiar <santiago.aguiar@gmail.com>
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.5
+#Vcs-Git: git://git.debian.org/collab-maint/ceibal.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/ceibal.git;a=summary
+
+Package: ceibal
+Architecture: all
+Depends: ${misc:Depends},${ceibal:Depends}
+Description: Metapackage para configuracion de equipos Ceibal
+ Lista dependencias a paquetes con customizaciones para equipos Ceibal.
