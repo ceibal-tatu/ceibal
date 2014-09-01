@@ -10,5 +10,7 @@ Vcs-Browser: https://github.com/ceibal-tatu/ceibal
 Package: ceibal
 Architecture: all
 Depends: ${misc:Depends},${ceibal:Depends}
+Conflicts: ${ceibal:Removes}
+Replaces: ${ceibal:Removes}
 Description: Metapackage para configuracion de equipos Ceibal
  Lista dependencias a paquetes con customizaciones para equipos Ceibal.
