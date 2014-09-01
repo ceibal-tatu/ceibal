@@ -1,0 +1,19 @@
+# gsettings overrides para Ceibal
+# Version inicial tomada de imagenes-con-clonezilla/customScripts/configuraciones/gnome-settings.sh
+
+# Muestra pendrive en el escritorio al conectar
+[org.gnome.nautilus.desktop]
+volumes-visible=true
+
+# Deshabilitar solicitud de contrasena cuando se bloquea pantalla 
+[org.gnome.desktop.lockdown]
+disable-lock-screen=true
+
+# Enable show-notifications?
+# [com.ubuntu.update-notifier]
+# no-show-notifications=true
+# sudo sed -i 's/X-GNOME-Autostart-Delay=60/X-GNOME-Autostart-enabled=false/' /etc/xdg/autostart/update-notifier.desktop
+
+# Ventana para Guardar/Abrir archivo desfasada en la mayoría de los programas
+[org.gnome.desktop.interface]
+font-name='Ubuntu'

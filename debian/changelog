@@ -1,3 +1,9 @@
+ceibal (0.3) tatu; urgency=medium
+
+  * Added cheese and lucidor to the removed packages list. 
+
+ -- Santiago Aguiar <santiago.aguiar@gmail.com>  Sun, 31 Aug 2014 22:22:06 -0300
+
 ceibal (0.2) tatu; urgency=medium
 
   * Fixed ceibal-pam-auth dependency.
